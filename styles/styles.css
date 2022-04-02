@@ -1,13 +1,14 @@
+/* Configurações Gerais */
 .page{
   max-width: 640px;
-  height: 100vh; /* remover depois */
+  /* height: 100vh; */
 }
 
 .page, main{
   background-color: #e5e5e5;
 }
 
-header, main{
+.page, header, main{
   display: flex;
   flex-direction: column;
 }
@@ -16,7 +17,6 @@ header {
   position: fixed;
   top: 0;
   left: 0;
-  z-index: 1;
   justify-content: center;
   width: 100%;
   max-width: 640px;
@@ -47,12 +47,15 @@ header p{
   color: #FFFFFF;
 }
 
+/* Seleção de produtos */
 main {
   margin-top: 92px;
+  margin-bottom: 92px;
 }
 
 section{
   margin-top: 27px;
+  margin-bottom: 16px;
   margin-left: 19px;
   display: flex;
   flex-direction: column;
@@ -155,6 +158,44 @@ span .check{
 
 .marcado{
   border: medium solid #32B72F;
+}
+
+/* Botão finalizar pedido */
+.pedir{
+  position: fixed;
+  left: 0px;
+  bottom: 0px;
+  height: 92px;
+  width: 100%;
+  max-width: 640px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background: #FFFFFF;
+}
+
+.pedir button{
+  height: 66%;
+  width: 88%;
+  border: none;
+  border-radius: 90px;
+  padding: 0 8%;
+  background: #32B72F;
+  box-sizing: border-box;
+
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+  letter-spacing: 0.018em;
+
+  color: #FFFFFF;
+}
+
+.pedir button:disabled{
+  background: #CBCBCB;
 }
 
 
