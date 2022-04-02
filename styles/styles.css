@@ -145,19 +145,20 @@ section h2{
   height: 55%;
 }
 
-span img{
+.card-item span img{
 display: none;
 }
 
-span .check{
+.selecionado{
+  border: medium solid #32B72F;
+}
+
+.card-item span .selecionado{
   /* Dimensões em relação ao pai (span) */
+  border: none;
   display: inherit;
   width: 14%;   
   height: 90%;
-}
-
-.marcado{
-  border: medium solid #32B72F;
 }
 
 /* Botão finalizar pedido */
@@ -185,7 +186,7 @@ span .check{
   box-sizing: border-box;
 
   font-family: 'Roboto';
-  font-weight: 400;
+  font-weight: 700;
   font-size: 20px;
   line-height: 23px;
   text-align: center;
@@ -195,6 +196,7 @@ span .check{
 }
 
 .pedir button:disabled{
+  font-weight: 400;
   background: #CBCBCB;
 }
 
