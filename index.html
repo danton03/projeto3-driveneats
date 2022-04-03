@@ -112,30 +112,30 @@
       <!-- Sobremesas -->
       <section>
         <h2>Por fim, sua sobremesa</h2>
-        <div class="itens">
+        <div class="itens sobremesa">
           
-          <div class="card-item sobremesa" onclick="selecionarSobremesa(this)">
+          <div class="card-item" onclick="selecionarSobremesa(this)">
             <img src="/assets/images/Furrundu.jpg" alt="Furrundu">
             <h3>Furrundu</h3>
             <p> Doce de mamão verde, gengibre, cravo e canela</p>
             <span>R$ 7,99 <img src="/assets/images/checkmark-circle.svg" alt="ícone de marcado"></span>
           </div>
 
-          <div class="card-item sobremesa" onclick="selecionarSobremesa(this)">
+          <div class="card-item" onclick="selecionarSobremesa(this)">
             <img src="/assets/images/Bolo-de-Rolo.jpg" alt="Bolo de Rolo">
             <h3>Bolo de Rolo</h3>
             <p>Bolo com camadas de goiabada em seu interior.</p>
             <span>R$ 9,00 <img src="/assets/images/checkmark-circle.svg" alt="ícone de marcado"></span>
           </div>
 
-          <div class="card-item sobremesa" onclick="selecionarSobremesa(this)">
+          <div class="card-item" onclick="selecionarSobremesa(this)">
             <img src="/assets/images/bolo-no-pote.jpg" alt="bolo no pote">
             <h3>Bolo no Pote</h3>
             <p>Bolo fofinho com de mousse de morango e Oreo</p>
             <span>R$ 4,65 <img src="/assets/images/checkmark-circle.svg" alt="ícone de marcado"></span>
           </div>
 
-          <div class="card-item sobremesa" onclick="selecionarSobremesa(this)">
+          <div class="card-item" onclick="selecionarSobremesa(this)">
             <img src="/assets/images/sorvete.jpg" alt="sorvete">
             <h3>Sorvete</h3>
             <p>Sorvete de baunilha com calda de morangos</p>
@@ -149,7 +149,7 @@
 
     <!-- Pedir -->
     <div class="pedir">
-      <button disabled>
+      <button disabled onclick="finalizarPedido()">
         Selecione os 3 itens para fechar o pedido
       </button>
     </div>
