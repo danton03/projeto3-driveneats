@@ -108,7 +108,7 @@ function finalizarPedido() {
   - Prato: ${pratoPedido}\n
   - Bebida: ${bebidaPedida}\n
   - Sobremesa: ${sobremesaPedida}\n\n
-  Total: R$ ${totalTxt} `
+  Total: R$ ${totalTxt}`
 
   //URI encodada para funcionar no navegador
   const uriEncoded = encodeURIComponent(uri);
