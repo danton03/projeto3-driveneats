@@ -105,9 +105,9 @@ function finalizarPedido() {
 
   //Texto do pedido que será enviado via whatsapp
   const uri = `Olá, gostaria de fazer o pedido:\n
-  - Prato: ${pratoPedido}\n
-  - Bebida: ${bebidaPedida}\n
-  - Sobremesa: ${sobremesaPedida}\n\n
+  - Prato: ${pratoPedido}
+  - Bebida: ${bebidaPedida}
+  - Sobremesa: ${sobremesaPedida}
   Total: R$ ${totalTxt}`
 
   //URI encodada para funcionar no navegador
